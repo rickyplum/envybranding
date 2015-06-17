@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+
+    <!-- Title of The Site 
+    ================================================== -->
+    <title>Rise | Responsive Onepage HTML Template.</title>
+
+    <!-- Author & Description Meta Tag 
+    ================================================== -->
+    <meta name="author" content="Your Name Here">
+    <meta name="description" content="Your Description Here">
+
+    <!-- The Moile Responsive Meta Tag 
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.5">
+
+    <!-- Google Web Font 
+    ================================================== -->
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,800'>
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
+
+    <!-- Main Stylesheet 
+    ================================================== -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Favicons 
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png">
+
+    <!-- Modernizr 
+    ================================================== -->
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <!-- Color Skins 
+    ================================================== -->
+    <link rel="stylesheet" href="css/colors/color-red.css" title="red">
+    <link rel="stylesheet" href="css/colors/color-green.css" title="green">
+    <link rel="stylesheet" href="css/colors/color-purple.css" title="purple">
+    <link rel="stylesheet" href="css/colors/color-blue.css" title="blue">
+    <link rel="stylesheet" href="css/colors/color-turquoise.css" title="turquoise">
+    <link rel="stylesheet" href="css/colors/color-sun-flower.css" title="sun-flower">
+    <link rel="stylesheet" href="css/colors/color-orange.css" title="orange">
+    <link rel="stylesheet" href="css/colors/color-emerald.css" title="emerald">
+
+</head>
+<body>
+    
+<!-- Styleswitcher
+================================================== -->
+        <div class="colors-switcher">
+            <a id="show-panel" class="hide-panel"><i class="fa fa-tint"></i></a>        
+                <ul class="colors-list">
+                    <li><a title="Red" onClick="setActiveStyleSheet('red'); return false;" class="red"></a></li>
+                    <li><a title="Green" class="green" onClick="setActiveStyleSheet('green'); return false;"></a></li>
+                    <li class="no-margin"><a title="Purple" onClick="setActiveStyleSheet('purple'); return false;" class="purple"></a></li>
+                    <li><a title="Blue" class="blue" onClick="setActiveStyleSheet('blue'); return false;"></a></li>
+                    <li class="no-margin"><a title="Turquoise" class="turquoise" onClick="setActiveStyleSheet('turquoise'); return false;"></a></li>
+                    <li><a title="Sun Flower" class="sun-flower" onClick="setActiveStyleSheet('sun-flower'); return false;"></a></li>
+                    <li class="no-margin"><a title="Orange" class="orange" onClick="setActiveStyleSheet('orange'); return false;"></a></li>
+                    <li class="no-margin"><a title="Emerald" class="emerald" onClick="setActiveStyleSheet('emerald'); return false;"></a></li>
+                </ul>
+
+        </div>  
+<!-- Styleswitcher End
+================================================== -->
+
+
+<!-- Header -->
+    <header>
+        <nav id="main-menu" class="navbar navbar-default navbar-fixed-top nav-bg-color">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-navicon"></i>
+                    </button>
+                    <!-- Logo -->
+                    <a href="shortcodes.html#" class="header-logo">
+                        <img src="img/logo.png" alt="Rise Logo">
+                    </a> 
+                    <!-- Logo -->
+                </div><!-- End .navbar-header -->
+
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- Navigation -->
+                    <ul class="nav navbar-nav" id="nav">
+                        <li class="active"><a href="index.html#home" class="colapse-menu1">Home</a></li>
+                        <li><a href="index.html#about" class="colapse-menu1">About us</a></li>
+                        <li><a href="index.html#team" class="colapse-menu1">Team</a></li>
+                        <li><a href="index.html#services" class="colapse-menu1">Services</a></li>
+                        <li><a href="index.html#portfolio" class="colapse-menu1">Portfolio</a></li>                  
+                        <li><a href="index.html#blog" class="colapse-menu1">Blog</a></li>
+                        <li><a href="index.html#clients" class="colapse-menu1">Clients</a></li>
+                        <li><a href="index.html#contact" class="colapse-menu1">Contact</a></li>
+                        <li class="menu-item-has-children">
+                            <a href="shortcodes.html#">Extra</a>
+                            <ul class="sub-menu">
+                                <li><a href="shortcodes.html">Shortcodes</a></li>
+                                <li><a href="portfolio-single.html">Portfolio Single</a></li>
+                                <li><a href="portfolio-single-slider.html">Portfolio Single Slider</a></li>
+                                <li><a href="portfolio-single-video.html">Portfolio Single video</a></li>
+                            </ul><!-- /.sub-menu -->
+                        </li>     
+                    </ul>
+                <!-- Navigation End -->
+                </div><!-- End .collapse -->
+            </div><!-- End .container -->
+        </nav><!-- End #main-menu -->
+    </header>
+<!-- Header End -->
+
+    <div class="shortcodes">
+
+        <!-- BUTTONS -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>Buttons</h4>      
+                    </div><!-- End .col-xs-12 -->
+                </div><!-- End .row -->
+
+                <div class="row btn-container">
+                    <div class="col-sm-2 col-md-4">
+                        <p><button class="btn btn-large">Large</button></p>
+                        <p><button class="btn">Medium</button></p>
+                        <p><button class="btn btn-small">Small</button></p> 
+                    </div><!-- End .col-sm-2 .col-md-3 -->
+
+                    <div class="col-sm-2 col-md-4">
+                        <p><button class="btn btn-large btn-success">Success</button></p>
+                        <p><button class="btn btn-success">Success</button></p>
+                        <p><button class="btn btn-small btn-success">Success</button></p> 
+                    </div><!-- End .col-sm-2 .col-md-3 -->
+
+                    <div class="col-sm-2 col-md-4">
+                        <p><button class="btn btn-large btn-info">Info</button></p>
+                        <p><button class="btn btn-info">Info</button></p>
+                        <p><button class="btn btn-small btn-info">Info</button></p> 
+                    </div><!-- End .col-sm-2 .col-md-3 -->
+                </div><!-- End .row -->
+
+                <div class="row btn-container">
+                    <div class="col-sm-2 col-md-4">
+                        <p><button class="btn btn-large btn-warning">Warning</button></p>
+                        <p><button class="btn btn-warning">Warning</button></p>
+                        <p><button class="btn btn-small btn-warning">Warning</button></p> 
+                    </div><!-- End .col-sm-2 .col-md-3 -->
+
+                    <div class="col-sm-2 col-md-4">
+                        <p><button class="btn btn-large btn-danger">Danger</button></p>
+                        <p><button class="btn btn-danger">Danger</button></p>
+                        <p><button class="btn btn-small btn-danger">Danger</button></p> 
+                    </div><!-- End .col-sm-2 .col-md-3 -->
+
+                    <div class="col-sm-2 col-md-4">
+                        <p><button class="btn btn-large btn-fancy"><span>Fancy</span></button></p>
+                        <p><button class="btn btn-fancy"><span>Fancy</span></button></p>
+                        <p><button class="btn btn-small btn-fancy"><span>Fancy</span></button></p> 
+                    </div><!-- End .col-sm-2 .col-md-3 -->
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+        </section>
+
+        <!-- TYPOGRAPHY -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>Typography</h4>
+                        
+                    </div><!-- End .col-xs-12 -->
+                </div><!-- End .row -->
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Heading H1</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="col-md-6">
+                        <h2>Heading H2</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="clearfix"></div><!-- End .clearfix -->
+
+                    <div class="col-md-6">
+                        <h3>Heading H3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="col-md-6">
+                        <h4>Heading H4</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="clearfix"></div><!-- End .clearfix -->
+
+                    <div class="col-md-6">
+                        <h5>Heading H5</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="col-md-6">
+                        <h6>Heading H6</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div><!-- End .col-md-6 -->
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+        </section>
+
+        <!-- ACCORDIONS / TABS -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h4>Accordions</h4>
+                            </div><!-- End .col-xs-12 -->
+                        </div><!-- End .row -->
+
+                        <dl class="accordion clearfix">
+                            <dt>Accordion 1</dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. And finally the subconscious is the mechanism through which thought impulses which are repeated regularly with</dd>
+
+                            <dt>Accordion 2</dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. And finally the subconscious is the mechanism through which thought impulses which are repeated regularly with</dd>
+
+                            <dt>Accordion 3</dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. And finally the subconscious is the mechanism through which thought impulses which are repeated regularly with</dd>
+
+                            <dt>Accordion 4</dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. And finally the subconscious is the mechanism through which thought impulses which are repeated regularly with</dd>
+                        </dl>          
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h4>Tabs</h4>
+                            </div><!-- End .col-xs-12 -->
+                        </div><!-- End .row -->
+
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" id="tabs">
+                            <li class="active"><a href="shortcodes.html#tab-1" data-toggle="tab">Home</a></li>
+                            <li><a href="shortcodes.html#tab-2" data-toggle="tab">Profile</a></li>
+                            <li><a href="shortcodes.html#tab-3" data-toggle="tab">Messages</a></li>
+                            <li><a href="shortcodes.html#tab-4" data-toggle="tab">Settings</a></li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="tab-1">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, placeat, deserunt, id, voluptates nam dolorem labore porro neque consectetur consequuntur nemo minus eos saepe sapiente atque vitae dicta reprehenderit totam.</p>
+                            </div>
+
+                            <div class="tab-pane fade" id="tab-2">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, placeat, deserunt, id, voluptates nam dolorem labore..</p>
+                            </div>
+
+                            <div class="tab-pane fade" id="tab-3">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, placeat, deserunt, id, voluptates nam dolorem labore porro.</p>
+                            </div>
+
+                            <div class="tab-pane fade" id="tab-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, placeat, deserunt, id, voluptates nam dolorem labore porro neque consectetur consequuntur nemo minus eos saepe sapiente atque vitae dicta reprehenderit totam porro neque consectetur consequuntur nemo minus eos saepe sapiente atque vitae dicta reprehenderit totam..</p>
+                            </div>
+                        </div>
+
+                    </div><!-- End .col-md-6 -->     
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+        </section>
+
+        <!-- PRICING TABLES -->
+        <section class="price-tables">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>Pricing Tables</h4>
+                        
+                    </div><!-- End .col-xs-12 -->
+                </div><!-- End .row -->
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="price-table">
+                            <div class="table-icon">
+                                <span class="price-number">33</span>
+                                <span class="price-period">$ / mo</span>
+                            </div><!-- End .table-icon -->
+                            <h4>Basic</h4>
+                            <div class="divider"></div>
+                            <p>Text Here</p>
+                            <p>Text Here</p>
+                            <p>Text Here</p>
+                            <p>Text Here</p>
+                            <a href="shortcodes.html#" class="btn">Buy Now</a>
+                        </div><!-- End .price-table -->
+                    </div><!-- End . col-sm-6 .col-md-3 -->
+
+                    <div class="col-sm-6 col-md-3">
+                        <div class="price-table">
+                            <div class="table-icon">
+                                <span class="price-number">55</span>
+                                <span class="price-period">$ / mo</span>
+                            </div><!-- End .table-icon -->
+                            <h4>Standard</h4>
+                            <div class="divider"></div>
+                            <p>Text Here</p>
+                            <p>Text Here</p>
+                            <p>Text Here</p>
+                            <p>Text Here</p>
+                            <a href="shortcodes.html#" class="btn">Buy Now</a>
+                        </div><!-- End .price-table -->
+                    </div><!-- End . col-sm-6 .col-md-3 -->
+
+                    <div class="col-sm-6 col-md-3">
+                        <div class="price-table active">
+                            <div class="table-icon">
+                                <span class="price-number">77</span>
+                                <span class="price-period">$ / mo</span>
+                            </div><!-- End .table-icon -->
+                            <h4>Premium</h4>
+                            <div class="divider"></div>
+                            <p>Text Here</p>
+                            <p>Text Here</p>
+                            <p>Text Here</p>
+                            <p>Text Here</p>
+                            <a href="shortcodes.html#" class="btn">Buy Now</a>
+                        </div><!-- End .price-table .active -->
+                    </div><!-- End . col-sm-6 .col-md-3 -->
+
+                    <div class="col-sm-6 col-md-3">
+                        <div class="price-table">
+                            <div class="table-icon">
+                                <span class="price-number">99</span>
+                                <span class="price-period">$ / mo</span>
+                            </div><!-- End .table-icon -->
+                            <h4>Ultimate</h4>
+                            <div class="divider"></div>
+                            <p>Text Here</p>
+                            <p>Text Here</p>
+                            <p>Text Here</p>
+                            <p>Text Here</p>
+                            <a href="shortcodes.html#" class="btn">Buy Now</a>
+                        </div><!-- End .price-table -->
+                    </div><!-- End . col-sm-6 .col-md-3 -->
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+        </section>
+
+        <!-- ALERTS -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>Alert Boxes</h4>
+                        
+                    </div><!-- End .col-xs-12 -->
+                </div><!-- End .row -->
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="alert alert-success alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <i class="fa fa-thumbs-up"></i>
+                            <a href="shortcodes.html#"><strong>Well done!</strong>  You successfully read this important alert message.</a>
+                        </div><!-- End .alert -->
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="col-md-6">
+                        <div class="alert alert-danger alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <i class="fa fa-times-circle"></i>
+                            <a href="shortcodes.html#"><strong>Oh snap!</strong> Change a few things up and try submitting again.</a>
+                        </div><!-- End .alert -->
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="col-md-6">
+                        <div class="alert alert-info alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <i class="fa fa-info-circle"></i>
+                            <a href="shortcodes.html#"><strong>Heads up!</strong> This alert needs some of your attention.</a>
+                        </div><!-- End .alert -->
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="col-md-6">
+                        <div class="alert alert-warning alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <i class="fa fa-bell"></i>
+                            <a href="shortcodes.html#"><strong>Warning!</strong> Better check yourself, you're not looking too good.</a>
+                        </div><!-- End .alert -->
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="col-xs-12">
+                        <div class="alert">
+                            <i class="fa fa-flag"></i>
+                            <a href="shortcodes.html#"><strong>I am uncloseable</strong> you can make the alert closeable or not.</a>
+                        </div><!-- End .alert -->
+                    </div><!-- End .col-xs-12 -->
+
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+        </section>
+
+        <!-- Skills BARS -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>Skills bars</h4>
+                        
+                    </div><!-- End .col-xs-12 -->
+
+                    <div class="col-xs-12">
+                        <div class="skills">
+
+                            <div class="skillbar-title"><h4>Title Here</h4></div>
+                            <!-- Change The date-percent to any percent you want -->
+                            <div class="skillbar clearfix" data-percent="70%">
+                                <div class="skillbar-bar"></div>
+                                <div class="skillbar-percent">90%</div>
+                            </div> <!-- End Skill Bar .clearfix -->
+
+                            <div class="skillbar-title"><h4>Title Here</h4></div>
+                            <!-- Change The date-percent to any percent you want -->
+                            <div class="skillbar clearfix" data-percent="35%">
+                                <div class="skillbar-bar"></div>
+                                <div class="skillbar-percent">90%</div>
+                            </div> <!-- End Skill Bar .clearfix -->
+
+                            <div class="skillbar-title"><h4>Title Here</h4></div>
+                            <!-- Change The date-percent to any percent you want -->
+                            <div class="skillbar clearfix" data-percent="99%">
+                                <div class="skillbar-bar"></div>
+                                <div class="skillbar-percent">90%</div>
+                            </div> <!-- End Skill Bar .clearfix -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORMS -->
+        <section>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-xs-12">
+                        <h4>Forms</h4>
+                        
+                    </div><!-- End .col-xs-12 -->
+
+                    <div class="col-md-6">
+                        <input type="text" placeholder="Normal">
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="col-md-6">
+                        <input class="input-active" type="text" placeholder="Typing..">
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="col-md-6">
+                        <input class="input-error" type="text" placeholder="Error">
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="col-md-6">
+                        <input class="input-disabled" type="text" placeholder="Disabled" disabled>
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="col-xs-12">
+                        <textarea placeholder="Long Messages Here..."></textarea>
+                    </div>
+
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+        </section>
+
+        <!-- FONTAWESOME ICONS -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>Font Awesome Icons</h4>
+                    </div><!-- End .col-xs-12 -->
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">        
+                        <ul class="fontawesome">
+                            <li><i class="fa fa-adjust"></i> fa fa-adjust</li>
+                            <li><i class="fa fa-asterisk"></i> fa fa-asterisk</li>
+                            <li><i class="fa fa-ban"></i> fa fa-ban</li>
+                            <li><i class="fa fa-bar-chart-o"></i> fa fa-bar-chart-o</li>
+                            <li><i class="fa fa-barcode"></i> fa fa-barcode</li>
+                            <li><i class="fa fa-flask"></i> fa fa-flask</li>
+                            <li><i class="fa fa-beer"></i> fa fa-beer</li>
+                            <li><i class="fa fa-bell"></i> fa fa-bell</li>
+                            <li><i class="fa fa-bell-o"></i> fa fa-bell-o</li>
+                            <li><i class="fa fa-bolt"></i> fa fa-bolt</li>
+                            <li><i class="fa fa-book"></i> fa fa-book</li>
+                            <li><i class="fa fa-bookmark"></i> fa fa-bookmark</li>
+                            <li><i class="fa fa-bookmark-o"></i> fa fa-bookmark-o</li>
+                            <li><i class="fa fa-briefcase"></i> fa fa-briefcase</li>
+                            <li><i class="fa fa-bullhorn"></i> fa fa-bullhorn</li>
+                            <li><i class="fa fa-calendar"></i> fa fa-calendar</li>
+                            <li><i class="fa fa-camera"></i> fa fa-camera</li>
+                            <li><i class="fa fa-camera-retro"></i> fa fa-camera-retro</li>
+                            <li><i class="fa fa-certificate"></i> fa fa-certificate</li>
+                            <li><i class="fa fa-check"></i> fa fa-check</li>
+                            <li><i class="fa fa-check-circle"></i> fa fa-check-circle</li>
+                            <li><i class="fa fa-circle"></i> fa fa-circle</li>
+                            <li><i class="fa fa-circle-o"></i> fa fa-circle-o</li>
+                            <li><i class="fa fa-cloud"></i> fa fa-cloud</li>
+                            <li><i class="fa fa-cloud-download"></i> fa fa-cloud-download</li>
+                            <li><i class="fa fa-cloud-upload"></i> fa fa-cloud-upload</li>
+                            <li><i class="fa fa-coffee"></i> fa fa-coffee</li>
+                            <li><i class="fa fa-cog"></i> fa fa-cog</li>
+                            <li><i class="fa fa-cogs"></i> fa fa-cogs</li>
+                            <li><i class="fa fa-comment"></i> fa fa-comment</li>
+                            <li><i class="fa fa-comment-o"></i> fa fa-comment-o</li>
+                            <li><i class="fa fa-comments"></i> fa fa-comments</li>
+                            <li><i class="fa fa-comments-o"></i> fa fa-comments-o</li>
+                            <li><i class="fa fa-credit-card"></i> fa fa-credit-card</li>
+                            <li><i class="fa fa-dashboard"></i> fa fa-dashboard</li>
+                            <li><i class="fa fa-desktop"></i> fa fa-desktop</li>
+                            <li><i class="fa fa-download"></i> fa fa-download</li>
+                            <li><i class="fa fa-arrow-circle-down"></i> fa fa-arrow-circle-down</li>
+                        </ul>         
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">        
+                        <ul class="fontawesome">
+                            <li><i class="fa fa-edit"></i> fa fa-edit</li>
+                            <li><i class="fa fa-envelope"></i> fa fa-envelope</li>
+                            <li><i class="fa fa-envelope-o"></i> fa fa-envelope-o</li>
+                            <li><i class="fa fa-exchange"></i> fa fa-exchange</li>
+                            <li><i class="fa fa-exclamation-circle"></i> fa fa-exclamation-circle</li>
+                            <li><i class="fa fa-external-link"></i> fa fa-external-link</li>
+                            <li><i class="fa fa-eye-slash"></i> fa fa-eye-slash</li>
+                            <li><i class="fa fa-eye"></i> fa fa-eye</li>
+                            <li><i class="fa fa-video-camera"></i> fa fa-video-camera</li>
+                            <li><i class="fa fa-fighter-jet"></i> fa fa-fighter-jet</li>
+                            <li><i class="fa fa-film"></i> fa fa-film</li>
+                            <li><i class="fa fa-filter"></i> fa fa-filter</li>
+                            <li><i class="fa fa-fire"></i> fa fa-fire</li>
+                            <li><i class="fa fa-flag"></i> fa fa-flag</li>
+                            <li><i class="fa fa-folder"></i> fa fa-folder</li>
+                            <li><i class="fa fa-folder-open"></i> fa fa-folder-open</li>
+                            <li><i class="fa fa-folder-o"></i> fa fa-folder-o</li>
+                            <li><i class="fa fa-folder-open-o"></i> fa fa-folder-open-o</li>
+                            <li><i class="fa fa-cutlery"></i> fa fa-cutlery</li>
+                            <li><i class="fa fa-gift"></i> fa fa-gift</li>
+                            <li><i class="fa fa-glass"></i> fa fa-glass</li>
+                            <li><i class="fa fa-globe"></i> fa fa-globe</li>
+                            <li><i class="fa fa-group"></i> fa fa-group</li>
+                            <li><i class="fa fa-hdd-o"></i> fa fa-hdd-o</li>
+                            <li><i class="fa fa-headphones"></i> fa fa-headphones</li>
+                            <li><i class="fa fa-heart"></i> fa fa-heart</li>
+                            <li><i class="fa fa-heart-o"></i> fa fa-heart-o</li>
+                            <li><i class="fa fa-home"></i> fa fa-home</li>
+                            <li><i class="fa fa-inbox"></i> fa fa-inbox</li>
+                            <li><i class="fa fa-info-circle"></i> fa fa-info-circle</li>
+                            <li><i class="fa fa-key"></i> fa fa-key</li>
+                            <li><i class="fa fa-leaf"></i> fa fa-leaf</li>
+                            <li><i class="fa fa-laptop"></i> fa fa-laptop</li>
+                            <li><i class="fa fa-legal"></i> fa fa-legal</li>
+                            <li><i class="fa fa-lemon-o"></i> fa fa-lemon-o</li>
+                            <li><i class="fa fa-lightbulb-o"></i> fa fa-lightbulb-o</li>
+                            <li><i class="fa fa-lock"></i> fa fa-lock</li>
+                            <li><i class="fa fa-unlock"></i> fa fa-unlock</li>
+                        </ul>        
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">        
+                        <ul class="fontawesome">
+                            <li><i class="fa fa-magic"></i> fa fa-magic</li>
+                            <li><i class="fa fa-magnet"></i> fa fa-magnet</li>
+                            <li><i class="fa fa-map-marker"></i> fa fa-map-marker</li>
+                            <li><i class="fa fa-minus"></i> fa fa-minus</li>
+                            <li><i class="fa fa-minus-circle"></i> fa fa-minus-circle</li>
+                            <li><i class="fa fa-mobile-phone"></i> fa fa-mobile-phone</li>
+                            <li><i class="fa fa-money"></i> fa fa-money</li>
+                            <li><i class="fa fa-arrows-alt"></i> fa fa-arrows-alt</li>
+                            <li><i class="fa fa-music"></i> fa fa-music</li>
+                            <li><i class="fa fa-power-off"></i> fa fa-power-off</li>
+                            <li><i class="fa fa-check-square"></i> fa fa-check-square</li>
+                            <li><i class="fa fa-check-square-o"></i> fa fa-check-square-o</li>
+                            <li><i class="fa fa-check-circle"></i> fa fa-check-circle</li>
+                            <li><i class="fa fa-pencil"></i> fa fa-pencil</li>
+                            <li><i class="fa fa-picture-o"></i> fa fa-picture-o</li>
+                            <li><i class="fa fa-plane"></i> fa fa-plane</li>
+                            <li><i class="fa fa-plus"></i> fa fa-plus</li>
+                            <li><i class="fa fa-plus-circle"></i> fa fa-plus-circle</li>
+                            <li><i class="fa fa-print"></i> fa fa-print</li>
+                            <li><i class="fa fa-key"></i> fa fa-key</li>
+                            <li><i class="fa fa-qrcode"></i> fa fa-qrcode</li>
+                            <li><i class="fa fa-question-circle"></i> fa fa-question-circle</li>
+                            <li><i class="fa fa-quote-left"></i> fa fa-quote-left</li>
+                            <li><i class="fa fa-quote-right"></i> fa fa-quote-right</li>
+                            <li><i class="fa fa-random"></i> fa fa-random</li>
+                            <li><i class="fa fa-refresh"></i> fa fa-refresh</li>
+                            <li><i class="fa fa-times-circle"></i> fa fa-times-circle</li>
+                            <li><i class="fa fa-times-circle-o"></i> fa fa-times-circle-o</li>
+                            <li><i class="fa fa-times"></i> fa fa-times</li>
+                            <li><i class="fa fa-bars"></i> fa fa-bars</li>
+                            <li><i class="fa fa-reply"></i> fa fa-reply</li>
+                            <li><i class="fa fa-expand"></i> fa fa-expand</li>
+                            <li><i class="fa fa-compress"></i> fa fa-compress</li>
+                            <li><i class="fa fa-retweet"></i> fa fa-retweet</li>
+                            <li><i class="fa fa-road"></i> fa fa-road</li>
+                            <li><i class="fa fa-rss"></i> fa fa-rss</li>
+                            <li><i class="fa fa-play-circle"></i> fa fa-play-circle</li>
+                            <li><i class="fa fa-search"></i> fa fa-search</li>
+                        </ul>        
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">        
+                        <ul class="fontawesome">
+                            <li><i class="fa fa-share"></i> fa fa-share</li>
+                            <li><i class="fa fa-share-square"></i> fa fa-share-square</li>
+                            <li><i class="fa fa-shopping-cart"></i> fa fa-shopping-cart</li>
+                            <li><i class="fa fa-signal"></i> fa fa-signal</li>
+                            <li><i class="fa fa-sign-in"></i> fa fa-sign-in</li>
+                            <li><i class="fa fa-sign-out"></i> fa fa-sign-out</li>
+                            <li><i class="fa fa-sitemap"></i> fa fa-sitemap</li>
+                            <li><i class="fa fa-sort"></i> fa fa-sort</li>
+                            <li><i class="fa fa-sort-down"></i> fa fa-sort-down</li>
+                            <li><i class="fa fa-sort-up"></i> fa fa-sort-up</li>
+                            <li><i class="fa fa-spinner"></i> fa fa-spinner</li>
+                            <li><i class="fa fa-star"></i> fa fa-star</li>
+                            <li><i class="fa fa-star-o"></i> fa fa-star-o</li>
+                            <li><i class="fa fa-star-half"></i> fa fa-star-half</li>
+                            <li><i class="fa fa-tablet"></i> fa fa-tablet</li>
+                            <li><i class="fa fa-tag"></i> fa fa-tag</li>
+                            <li><i class="fa fa-tags"></i> fa fa-tags</li>
+                            <li><i class="fa fa-tasks"></i> fa fa-tasks</li>
+                            <li><i class="fa fa-thumbs-down"></i> fa fa-thumbs-down</li>
+                            <li><i class="fa fa-thumbs-up"></i> fa fa-thumbs-up</li>
+                            <li><i class="fa fa-clock-o"></i> fa fa-clock-o</li>
+                            <li><i class="fa fa-tint"></i> fa fa-tint</li>
+                            <li><i class="fa fa-trash-o"></i> fa fa-trash-o</li>
+                            <li><i class="fa fa-trophy"></i> fa fa-trophy</li>
+                            <li><i class="fa fa-truck"></i> fa fa-truck</li>
+                            <li><i class="fa fa-umbrella"></i> fa fa-umbrella</li>
+                            <li><i class="fa fa-upload"></i> fa fa-upload</li>
+                            <li><i class="fa fa-cloud-upload"></i> fa fa-cloud-upload</li>
+                            <li><i class="fa fa-user"></i> fa fa-user</li>
+                            <li><i class="fa fa-user-md"></i> fa fa-user-md</li>
+                            <li><i class="fa fa-volume-off"></i> fa fa-volume-off</li>
+                            <li><i class="fa fa-volume-down"></i> fa fa-volume-down</li>
+                            <li><i class="fa fa-volume-up"></i> fa fa-volume-up</li>
+                            <li><i class="fa fa-warning"></i> fa fa-warning</li>
+                            <li><i class="fa fa-wrench"></i> fa fa-wrench</li>
+                            <li><i class="fa fa-minus-square"></i> fa fa-minus-square</li>
+                            <li><i class="fa fa-plus-square"></i> fa fa-plus-square</li>
+                            <li><i class="fa fa-question-circle"></i> fa fa-question-circle</li>
+                        </ul>        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div><!-- .shortcodes -->
+
+<!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="widget">
+                        <h4>In The End</h4>
+                        <p>Nullam dictum felis eu pede mollis pretium. Cras dapibus. Vivamus elementum se semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae seasne eleifend acenimin viverra quis feugiat a telus. </p>
+                    </div><!-- End .widget -->
+                </div><!-- End .col-sm-3 -->
+                <div class="col-sm-3">
+                    <div class="widget">
+                        <h4>New York</h4>
+
+                        <p>Nullam dictum felis eu pede mollis pretium. Cras dapibus vivamus
+                        newyork@eleven.com<br>
+
+                        ( 495 ) 663 287 547</p>
+                    </div><!-- End .widget -->
+                </div><!-- End .col-sm-3 -->
+                <div class="col-sm-3">
+                    <div class="widget">
+                        <h4>Berlin</h4>
+
+                        <p>Nullam dictum felis eu pede mollis pretium. Cras dapibus vivamus
+                        berlin@eleven.com<br>
+
+                        ( 495 ) 663 287 547</p>
+                    </div><!-- End .widget -->
+                </div><!-- End .col-sm-3 -->
+            </div><!-- End .row -->            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-copy">
+                        <p>&copy; 2014 metrothemes All rights reserved.</p>
+                    </div><!-- End .footer-copy -->
+                </div>
+            </div><!-- End .row -->
+        </div><!-- End .container -->
+    </footer>
+<!-- Footer End -->
+
+
+    <!-- Scripts
+    ================================================== -->
+
+    <!-- jQuery Library -->
+    <script src="js/vendor/jquery-1.11.0.min.js"></script>
+
+    <!-- Boostrap Scripts -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- StyleSwitcher Scripts -->
+    <script src="js/styleswitcher.js"></script>
+
+    <!-- Google Maps API -->
+    <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+
+    <!-- All Plugins -->
+    <script src="js/jQueryPlugins/all-min.js"></script>
+
+    <!-- Custom Javascript File -->
+    <script src="js/main.js"></script>
+    <script>
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-40303595-1']);
+      _gaq.push(['_setDomainName', 'html.metrothemes.me']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+</body>
+</html>
