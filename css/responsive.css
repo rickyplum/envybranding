@@ -170,18 +170,14 @@
   .parallax{
     background-position: center top !important;
     background-attachment: scroll !important; 
-  }   
-
-img {
-  vertical-align: middle;
-  max-width: 58%;
-  margin-top: -113px;
-} 
+  }  
 
 }
 @media (max-width: 640px) { 
     .header-logo{
         margin-left: 20px;
+        max-width: 57% !important;
+}
     }
     .home-intro h1{
         font-size: 60px;
@@ -220,7 +216,7 @@ img {
     .client-box{
         height: 260px;
     }
-}
+
 
 @media (max-width: 375px) { 
     #fullscreen-slider .slider-captions h1{
