@@ -237,7 +237,7 @@
 
 /*----------------------------- Google map --------------------------*/    
     $('#map').gmap3({
-        marker:{address:"Haltern am See, Weseler Str. 151", options:{icon: "img/location1.png"}},
+        marker:{address:"50th and Broadway New York, New York", options:{icon: "img/location1.png"}},
         map:{
             options:{
               zoom: 14,

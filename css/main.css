@@ -608,6 +608,7 @@ header{
   padding-top: 15px;
   margin-top: -53px;
   margin-left: 43px;
+  max-width: 100%;
 }
 
 .navbar-fixed-top, .navbar-fixed-bottom{
